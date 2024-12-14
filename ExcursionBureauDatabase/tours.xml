@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<tours>
+	<tour>
+		<id>1</id>
+		<title>Mountain Hiking</title>
+		<description>Hiking in the beautiful mountain range.</description>
+		<price>200.0</price>
+	</tour>
+	<tour>
+		<id>2</id>
+		<title>City Tour</title>
+		<description>Guided tour of the historic city center.</description>
+		<price>50.0</price>
+	</tour>
+</tours>
