@@ -1,0 +1,36 @@
+/* static/css/styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4a90e2, #11263e); /* Синий градиент */
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0066cc; /* Темно-синий */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004b99; /* Темнее при наведении */
+}

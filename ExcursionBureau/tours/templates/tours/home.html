@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+<h1>Available Tours</h1>
+<ul>
+    {% for tour in tours %}
+        <li>
+            <a href="{{ tour.id }}">{{ tour.title }}</a> - ${{ tour.price }}
+        </li>
+    {% endfor %}
+</ul>
